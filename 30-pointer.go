@@ -12,8 +12,10 @@ type Address struct {
 func main() {
 	address1 := Address{City: "Subang", Province: "Jawa Barat", Country: "Indonesia"}
 
+	//tanpa pointer
 	address2 := address1 //pass by value, address2 mengcopy address1
 
+	//dengan pointer
 	// address2 := &address1             //pass by reference menggunakan pointer, address2 mereference address1
 	// var address3 *Address = &address1 //bisa juga dengan cara
 
