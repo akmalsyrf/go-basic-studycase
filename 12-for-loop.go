@@ -16,7 +16,7 @@ func main() {
 		fmt.Println(slice[i])
 	}
 
-	//for range, biasanya untuk iterasi array, slice, map
+	//for range, biasanya untuk iterasi array, slice, map (mirip seperti forEach / map / for in)
 	names := []string{"Eko", "Joko", "Budi"}
 	for index, value := range names {
 		fmt.Println(index, value)

@@ -11,7 +11,7 @@ func main() {
 	fmt.Println("HasPrefix	:", strings.HasPrefix("test", "te"))
 	fmt.Println("HasSuffix	:", strings.HasSuffix("test", "st"))
 	fmt.Println("Index		:", strings.Index("test", "e"))
-	fmt.Println("Join		:", strings.Join([]string{"a", "b"}, "-")) // ["a,"b].join("-")
+	fmt.Println("Join		:", strings.Join([]string{"a", "b"}, "-")) // ["a","b"].join("-")
 	fmt.Println("Repeat		:", strings.Repeat("a", 5))
 	fmt.Println("Replace 1	:", strings.Replace("aaaa", "a", "b", 2))
 	fmt.Println("Replace 2	:", strings.Replace("aaaa", "a", "b", -1))

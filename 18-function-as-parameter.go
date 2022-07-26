@@ -4,7 +4,6 @@ import "fmt"
 
 type Filter func(string) string
 
-//seperti callback di javascript, HOF
 func sayHelloWithFilter(name string, filter Filter) {
 	fmt.Println("Hello", filter(name))
 }

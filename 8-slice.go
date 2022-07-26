@@ -21,8 +21,8 @@ func main() {
 	var slice1 = months[4:7]
 
 	fmt.Println("Nilai awal slice1 :", slice1)
-	fmt.Println(len(slice1))
-	fmt.Println(cap(slice1))
+	fmt.Println(len(slice1))                          //length
+	fmt.Println(cap(slice1))                          //capacity
 	fmt.Println("append :", append(slice1, "Kliwon")) // kapasitas slice1 penuh, maka append akan membuat array baru
 
 	slice1[0] = "Diubah"
